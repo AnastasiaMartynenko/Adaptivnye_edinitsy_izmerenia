@@ -1,0 +1,19 @@
+
+.content{
+    display: grid;
+    grid-template-columns:repeat(4, 25vw);
+    background-image: -moz-element();
+}
+.box{
+    height: 25vh; /* блок занимает всю высоту экрана*/
+    border: 1px solid #000;
+
+}
+.center{
+    margin-left: calc(50% - 375px);
+    margin-right: calc(50% - 375px);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
